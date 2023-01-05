@@ -1,0 +1,20 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "JSdev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1",
+    "dotenv": "^16.0.3"
+  }
+}
